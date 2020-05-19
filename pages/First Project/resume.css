@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+  background-image: url('images/sunset1.jpg');
+  background-size: cover;
+}
+
+
+
+header {
+  text-align: center;
+  background-size: 100%;
+  overflow: hidden;
+  padding-top: 0px;
+  border-color: white;
+  color: #FFE4B5;
+  border: outset;
+
+
+}
+
+
+
+.main-nav {
+text-align: left;
+border-radius: 10px;
+background: none;
+max-width: 50px;
+padding: 10px;
+border-top: 10px;
+color: #b3ff99;
+border: groove;
+}
+
+.main-nav:hover {
+  border-color: maroon;
+
+}
+
+.box {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  color: white;
+  background: none;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all 1.5s;
+  border: solid 5px #ccc;
+}
+
+.box:hover {
+      border-color: maroon;
+      color: #b3ff99;
+}
+
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: left;
+  color: white;
+  background: none;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all 1.5s;
+  border: solid 5px #ccc;
+}
+.card:hover {
+  border-color: maroon;
+  color: #b3ff99;
+}

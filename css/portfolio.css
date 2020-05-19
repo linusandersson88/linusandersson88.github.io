@@ -13,7 +13,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  background-image: url();
+  background-image: url(../media/beach.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 1rem;
@@ -24,6 +24,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
   grid-gap: 1rem;
+  margin-left: 2rem;
 }
 
 .container li {

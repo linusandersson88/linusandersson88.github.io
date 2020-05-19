@@ -16,32 +16,28 @@ body {
   background-image: url();
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 1rem;
 }
 
 .container {
+  --auto-grid-min-size: 16rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
-  grid-gap: 5rem;
-  margin-top: 5rem;
+  grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+  grid-gap: 1rem;
+}
+
+.container li {
+  list-style-type: none;
+  text-align: center;
+  display: grid;
 }
 
 img {
-  width: 20em;
+  width: 15em;
 }
 
-.box-1:hover,
-.box-2:hover,
-.box-3:hover,
-.box-4:hover,
-.box-5:hover,
-.box-6:hover,
-.box-7:hover,
-.box-8:hover {
-  transform: scale(1.2);
-}
-
-p {
-  text-align: center;
+.container li:hover {
+  transform: scale(1.1);
 }
 
 /* MENU STYLES */

@@ -1,0 +1,30 @@
+$font: 'Lato', sans-serif;
+
+$colors: (
+gray: #ccc,
+teal: #58e1c1,
+blue: #51ddfc,
+blue-dark: #4da2bb,
+white: #fff,
+berry: #e4757a,
+red: #fd7856,
+purple: #927bc1,
+green: #63cc82,
+orange: #fd9f85,
+light-blue: #51ddfc,
+
+
+
+);
+
+
+$btn-colors: (
+  'default': blue,
+  'success': green,
+    'error': berry,
+  'warning': red,
+     'info': purple,
+);
+
+
+$tablet: 768px;

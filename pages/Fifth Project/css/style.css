@@ -1,0 +1,78 @@
+body {
+	padding: 50px;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: column;
+}
+
+.container img {
+	height: auto;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+input {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	font-size: 16px;
+
+}
+
+input::placeholder {
+	font-size: 16px;
+}
+
+.lightbox {
+	background-color: #505050;
+	background-size: 100%;
+}
+
+.lb-data .lb-details {
+    text-align: center;   
+    
+}
+
+.lb-data .lb-caption {
+    font-size: 16px;
+}
+   
+
+
+@media screen and (min-width: 768px) {
+	.container {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+
+	.container a {
+		width: 48%;
+		text-align: center;
+	}
+
+	input {
+		max-width: 400px;
+	}
+
+	.search-div {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	body {
+		margin: auto;
+		padding: 100px;
+	}
+
+.container a {
+		width: 22%;
+		text-align: center;
+	}
+
+}

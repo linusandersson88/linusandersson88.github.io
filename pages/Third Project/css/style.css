@@ -1,0 +1,237 @@
+* {
+
+	font-family: 'Merriweather', serif;
+}
+
+
+fieldset {
+	border:none;
+}
+
+body {
+	max-width: 100vw;
+
+}
+
+p,
+label {
+	color: #979999;
+}
+
+header {
+	background-color: #3a3c4f;
+	padding: 15px;
+	text-align: center;
+	color: #fff;
+}
+
+.section-1 {
+  text-align: center;
+  border-bottom: solid 4px #3a3c4f;
+  margin-bottom: 2px;
+  padding-bottom: 20px;
+
+}
+
+.section-2 {
+ border-top: solid 4px lightgrey;
+ padding-top: 1px; 
+}
+
+.container {
+	padding: 5%;
+}
+
+
+.form label {
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}	
+
+
+.form input,
+.form select {
+	width: 92%;
+	border-radius: 5px;
+	padding: 15px;
+	border: none;
+	background: #f2f2f2;
+	line-height: 1px;
+}
+
+.form select {
+	width: 100%;
+	max-width: 100%;
+}
+
+.text-area {
+	margin-top: 10px;
+	margin-bottom: 25px;
+
+
+}
+
+textarea {
+	max-width: 100%;
+	border-radius: 5px;
+	border: none;
+	background: #f2f2f2;
+	width: 100%;
+	margin-top: 10px;
+}
+
+
+input[type=checkbox] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+input[type=checkbox]:checked + label {
+  color: green;
+  font-style: normal;
+} 
+
+input[type=radio] + label {
+  color: #ccc;
+  font-style: italic;
+} 
+input[type=radio]:checked + label {
+  color: green;
+  font-style: normal;
+} 
+
+
+
+input {
+	text-align: left;
+}
+
+::placeholder {
+	text-align: right;
+	font-style: italic;
+}
+
+#fullname {
+	text-align: left;
+}
+
+#mail {
+	text-align: left;
+
+}
+
+
+hr {
+	border: solid 2px #3a3c4f;
+}
+
+input:focus {
+	text-align: left;
+	background: darkgrey;
+	border: solid 2px blue;
+	padding: 13px;
+	transition: 1.1s;
+}
+
+.bottom-form label {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	display: inline-block;
+
+}
+
+.bottom-form label:last-child {
+ margin-left: 0;
+}
+
+.bottom-form input, .bottom-form select {
+	width: 10%;
+}
+
+button {
+	width: 100%;
+	background: #29cfcc;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	margin-top: 30px;
+	padding: 25px 0;
+	font-size: 24px;
+}
+.copy {
+	text-align: center;
+}
+
+#zip {
+	 width: 20%;
+	 margin-right: 40%;
+
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+
+.form label {
+	display: inline-block;
+}
+
+
+
+.container {
+	width: 50%;
+	margin: auto;
+	padding-top: 50px;
+	
+}
+
+.section-3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 60vw;
+}
+
+.section-3 label {
+	width: 50%;
+	max-width: 50%;	
+	min-height: 30%;
+}
+
+.section-3 input {
+	max-width: 80vw; 
+	width: 100%;
+	justify-content: space-between;
+}
+
+.section-3 input {
+	width: 100%;
+	justify-content: space-between;
+}
+	
+.form input, .form select {
+	width: 70%
+}	
+
+.form select {
+	box-sizing: content-box;
+}
+
+.bottom-form input, .bottom-form select {
+	width: 10%;
+}
+
+
+
+#zip {
+	 width: 20%;
+	 margin-right: 39%;
+
+}
+
+}
+
+
+
+

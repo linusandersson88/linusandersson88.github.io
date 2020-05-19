@@ -1,0 +1,43 @@
+
+  .btn {
+  margin-top: 15px;
+  width: 100%;
+  color:(white);
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+
+
+  &:hover {
+    background-color: lighten(red, 30%);
+  }
+
+
+}
+
+
+
+
+  .default {
+    background-color: color(blue);
+  }
+
+  .error {
+    background-color: color(berry);
+  }
+
+  .info {
+    background-color: color(purple);
+  }
+
+  .success {
+    background-color: color(green);
+
+  }
+  .warning {
+    background-color: color(red);
+
+  }
+
+  

@@ -8,10 +8,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #fff3e9;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
   line-height: 1.4;
   background-image: url(../media/beach.jpg);
   background-repeat: no-repeat;

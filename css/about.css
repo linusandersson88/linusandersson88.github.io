@@ -18,10 +18,22 @@ body {
 
 header {
   position: relative;
-  height: 880px;
+  height: 800px;
   min-height: 500px;
   width: 100%;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 600px;
+  }
+}
+
+@media (max-width: 992px) {
+  header {
+    height: 600px;
+  }
 }
 
 header:before {
@@ -68,7 +80,7 @@ header .banner-text h1 {
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   header .banner-text h1 {
     font-size: 20px;
   }
@@ -176,7 +188,7 @@ header .banner-text h3 a {
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .count {
     margin: 40px 0;
   }
